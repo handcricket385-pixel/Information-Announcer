@@ -1,1 +1,635 @@
-=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
+require "import"
+import "android.widget.*"
+import "android.app.*"
+import "android.view.*"
+import "android.content.Context"
+import "android.content.Intent"
+import "android.net.Uri"
+import "android.content.IntentFilter"
+import "android.os.BatteryManager"
+import "android.speech.tts.TextToSpeech"
+import "android.net.wifi.WifiManager"
+import "android.net.ConnectivityManager"
+import "java.util.*"
+import "java.text.SimpleDateFormat"
+import "android.content.SharedPreferences"
+
+local ctx = activity or service or this
+local mainDialog = nil
+local aboutDlg = nil
+local tts = nil
+local selectedTtsEngine = nil
+local currentTtsName = "Default"
+
+-- SharedPreferences for saving settings
+local prefs = ctx.getSharedPreferences("AppSettings", Context.MODE_PRIVATE)
+local editor = prefs.edit()
+
+-- Load saved settings
+local selectedLang = prefs.getString("selectedLang", "English")
+local savedTtsEngine = prefs.getString("ttsEngine", nil)
+if savedTtsEngine then
+    selectedTtsEngine = savedTtsEngine
+end
+
+-- Language translations
+local Lang = {
+  English = {
+    title="Information Announcer", 
+    announce="Announce Battery Time", 
+    wifi="Announce Wi-Fi Signal", 
+    mobile="Announce Mobile Signal", 
+    about="About", 
+    goback="Go Back", 
+    exit="Exit", 
+    battery="Battery level is ", 
+    percent=" percent", 
+    its="It's ", 
+    oclock=" o'clock ", 
+    minutes=" minutes ", 
+    today="Today is ", 
+    year=" year ", 
+    dev="Developer: Mohammed Rehan", 
+    desc="This app announces Battery, Time, Date, Wi-Fi and Mobile Signal", 
+    select="Select Language", 
+    internetOff="Internet is off", 
+    dataOff="Mobile data is off", 
+    wifiSignal="Your Wi-Fi signal is ", 
+    phoneSignal="Your phone signal is ", 
+    bar=" bar", 
+    ttsEngine="Select TTS Engine", 
+    defaultTTS="Default", 
+    close="Close",
+    selectTTS="Select TTS Engine",
+    langEnglish="English",
+    langUrdu="Urdu",
+    noWifi="Wi-Fi is not connected"
+  },
+  Urdu = {
+    title="معلومات اعلان کنندہ", 
+    announce="بیٹری اور وقت کا اعلان کریں", 
+    wifi="وائی فائی سگنل کا اعلان کریں", 
+    mobile="موبائل سگنل کا اعلان کریں", 
+    about="تعارف", 
+    goback="واپس جائیں", 
+    exit="باہر جائیں", 
+    battery="بیٹری لیول ہے ", 
+    percent=" فیصد", 
+    its="اب وقت ہے ", 
+    oclock=" بجے ", 
+    minutes=" منٹ ", 
+    today="آج ہے ", 
+    year=" سال ", 
+    dev="ڈویلپر: محمد ریحان", 
+    desc="یہ ایپ بیٹری، وقت، تاریخ، وائی فائی اور موبائل سگنل کا اعلان کرتی ہے", 
+    select="زبان منتخب کریں", 
+    internetOff="انٹرنیٹ بند ہے", 
+    dataOff="موبائل ڈیٹا بند ہے", 
+    wifiSignal="آپ کے وائی فائی کا سگنل ", 
+    phoneSignal="آپ کے فون کا سگنل ", 
+    bar=" بار ہے", 
+    ttsEngine="ٹی ٹی ایس انجن منتخب کریں", 
+    defaultTTS="ڈیفالٹ", 
+    close="بند کریں",
+    selectTTS="ٹی ٹی ایس انجن منتخب کریں",
+    langEnglish="انگریزی",
+    langUrdu="اردو",
+    noWifi="وائی فائی منسلک نہیں ہے"
+  }
+}
+
+-- Urdu numbers with proper words
+local function numToWords(n, lang)
+  local en = {"zero","one","two","three","four","five"}
+  local ur = {"صفر","ایک","دو","تین","چار","پانچ"}
+  if lang == "Urdu" then 
+    if n >= 0 and n <= 5 then
+      return ur[n+1] or tostring(n)
+    else
+      return tostring(n)
+    end
+  else 
+    if n >= 0 and n <= 5 then
+      return en[n+1] or tostring(n)
+    else
+      return tostring(n)
+    end
+  end
+end
+
+local function closeAllAndOpen(url)
+  if aboutDlg then aboutDlg.dismiss() end
+  if mainDialog then mainDialog.dismiss() end
+  local intent = Intent(Intent.ACTION_VIEW, Uri.parse(url))
+  ctx.startActivity(intent)
+end
+
+local function openWhatsAppGroup()
+  local message = "Hello Assalamualaikum! I am Aftab Ali. Please add me to CSR Expert WhatsApp Group. Thank you!"
+  local url = "https://wa.me/923425037026?text="..Uri.encode(message)
+  closeAllAndOpen(url)
+end
+
+local function openLink(url)
+  closeAllAndOpen(url)
+end
+
+local function initTTS(engine)
+  if tts then 
+    tts.shutdown() 
+    tts = nil
+  end
+  
+  if engine then
+    tts = TextToSpeech(ctx, function(status)
+      if status == TextToSpeech.SUCCESS then
+        tts.setLanguage(Locale.getDefault())
+      end
+    end, engine)
+  else
+    tts = TextToSpeech(ctx, function(status)
+      if status == TextToSpeech.SUCCESS then
+        tts.setLanguage(Locale.getDefault())
+      end
+    end)
+  end
+end
+
+local function speak(text)
+  if not tts then 
+    initTTS(selectedTtsEngine) 
+    local wait = 0
+    while tts == nil and wait < 10 do
+      Thread.sleep(100)
+      wait = wait + 1
+    end
+  end
+  if tts then
+    pcall(function() 
+      tts.speak(text, TextToSpeech.QUEUE_FLUSH, nil) 
+    end)
+  end
+end
+
+local function getBatteryLevel()
+  local bm = ctx.registerReceiver(nil, IntentFilter(Intent.ACTION_BATTERY_CHANGED))
+  local level = bm.getIntExtra(BatteryManager.EXTRA_LEVEL, -1)
+  local scale = bm.getIntExtra(BatteryManager.EXTRA_SCALE, -1)
+  return math.floor(level * 100 / scale)
+end
+
+local function announceWifiSignal()
+  local L = Lang[selectedLang]
+  local cm = ctx.getSystemService(Context.CONNECTIVITY_SERVICE)
+  local networkInfo = cm.getNetworkInfo(ConnectivityManager.TYPE_WIFI)
+
+  if networkInfo == nil or not networkInfo.isConnected() then
+    speak(L.noWifi)
+    return
+  end
+
+  local wifiManager = ctx.getSystemService(Context.WIFI_SERVICE)
+  local wifiInfo = wifiManager.getConnectionInfo()
+  local rssi = wifiInfo.getRssi()
+  local level = WifiManager.calculateSignalLevel(rssi, 5)
+  
+  -- Convert level to words in selected language
+  local levelWord = numToWords(level, selectedLang)
+  
+  -- Create announcement text in proper language
+  local text
+  if selectedLang == "Urdu" then
+    text = L.wifiSignal .. levelWord .. L.bar
+  else
+    text = L.wifiSignal .. levelWord .. L.bar
+  end
+  
+  speak(text)
+end
+
+local function announceMobileSignal()
+  local L = Lang[selectedLang]
+  local cm = ctx.getSystemService(Context.CONNECTIVITY_SERVICE)
+  local networkInfo = cm.getNetworkInfo(ConnectivityManager.TYPE_MOBILE)
+
+  if networkInfo == nil or not networkInfo.isConnected() then
+    speak(L.dataOff)
+    return
+  end
+
+  local signalStrength = 3
+  local levelWord = numToWords(signalStrength, selectedLang)
+  
+  local text
+  if selectedLang == "Urdu" then
+    text = L.phoneSignal .. levelWord .. L.bar
+  else
+    text = L.phoneSignal .. levelWord .. L.bar
+  end
+  
+  speak(text)
+end
+
+local function announceAll()
+  local L = Lang[selectedLang]
+  local battery = getBatteryLevel()
+  local cal = Calendar.getInstance()
+  local hour = cal.get(Calendar.HOUR_OF_DAY)
+  local minute = cal.get(Calendar.MINUTE)
+  local dayName = SimpleDateFormat("EEEE").format(cal.getTime())
+  local monthName = SimpleDateFormat("MMMM").format(cal.getTime())
+  local dayNum = cal.get(Calendar.DAY_OF_MONTH)
+  local yearNum = cal.get(Calendar.YEAR)
+
+  local ampm = "AM"
+  if hour >= 12 then ampm = "PM" end
+  hour = hour % 12
+  if hour == 0 then hour = 12 end
+
+  local batteryText = L.battery.. tostring(battery).. L.percent
+  local timeText = L.its.. tostring(hour).. L.oclock.. tostring(minute).. L.minutes.. ampm
+  local dateText = L.today.. dayName..", ".. tostring(dayNum).." ".. monthName.. L.year.. tostring(yearNum)
+  local finalText = batteryText.. ". ".. timeText.. ". ".. dateText
+  
+  speak(finalText)
+end
+
+local function showAbout()
+  local L = Lang[selectedLang]
+  aboutDlg = LuaDialog(ctx)
+  aboutDlg.setTitle(L.about)
+  local scroll = ScrollView(ctx)
+  local layout = LinearLayout(ctx)
+  layout.setOrientation(LinearLayout.VERTICAL)
+  layout.setPadding(30,30,30,30)
+
+  local txt = TextView(ctx)
+  -- About text in selected language
+  local aboutText
+  if selectedLang == "Urdu" then
+    aboutText = "معلومات اعلان کنندہ\nورژن: 1.5\n"..L.dev.."\n\n"..L.desc.."\n\nہمارے ساتھ شامل ہوں:"
+  else
+    aboutText = L.title.."\nVersion: 1.5\n"..L.dev.."\n\n"..L.desc.."\n\nJoin Us:"
+  end
+  txt.setText(aboutText)
+  txt.setTextSize(16)
+  txt.setPadding(0,0,0,20)
+  layout.addView(txt)
+
+  local btnGroup = Button(ctx)
+  if selectedLang == "Urdu" then
+    btnGroup.setText("واٹس ایپ گروپ میں شامل ہوں")
+  else
+    btnGroup.setText("Join WhatsApp Group")
+  end
+  btnGroup.setOnClickListener(function() openWhatsAppGroup() end)
+  layout.addView(btnGroup)
+
+  local btnCSR = Button(ctx)
+  if selectedLang == "Urdu" then
+    btnCSR.setText("واٹس ایپ پر CSR Expert کو فالو کریں")
+  else
+    btnCSR.setText("Follow CSR Expert on WhatsApp")
+  end
+  btnCSR.setOnClickListener(function() openLink("https://whatsapp.com/channel/0029VbCfIq3Fi8xXRpRxqP1B") end)
+  layout.addView(btnCSR)
+
+  local btnATV = Button(ctx)
+  if selectedLang == "Urdu" then
+    btnATV.setText("واٹس ایپ پر Accessible Tech Vision کو فالو کریں")
+  else
+    btnATV.setText("Follow Accessible Tech Vision on WhatsApp")
+  end
+  btnATV.setOnClickListener(function() openLink("https://whatsapp.com/channel/0029Vb7IpqF23n3oxCl4ts25") end)
+  layout.addView(btnATV)
+
+  local btnYT1 = Button(ctx)
+  if selectedLang == "Urdu" then
+    btnYT1.setText("یوٹیوب پر CSR Expert کو سبسکرائب کریں")
+  else
+    btnYT1.setText("Subscribe CSR Expert on YouTube")
+  end
+  btnYT1.setOnClickListener(function() openLink("https://youtube.com/@csrexpert-d5v?si=xi-Ch7BYEzpJ5bTq") end)
+  layout.addView(btnYT1)
+
+  local btnYT2 = Button(ctx)
+  if selectedLang == "Urdu" then
+    btnYT2.setText("یوٹیوب پر Accessible Tech Vision کو سبسکرائب کریں")
+  else
+    btnYT2.setText("Subscribe Accessible Tech Vision on YouTube")
+  end
+  btnYT2.setOnClickListener(function() openLink("https://youtube.com/@accessibletechvision?si=weUuoOLZLCzD53fu") end)
+  layout.addView(btnYT2)
+
+  local btnGoBack = Button(ctx)
+  btnGoBack.setText(L.goback)
+  btnGoBack.setOnClickListener(function() aboutDlg.dismiss() end)
+  layout.addView(btnGoBack)
+
+  scroll.addView(layout)
+  aboutDlg.setView(scroll)
+  aboutDlg.show()
+end
+
+local function getInstalledTtsEngines()
+  local engines = {}
+  local pm = ctx.getPackageManager()
+  local intent = Intent(TextToSpeech.Engine.INTENT_ACTION_TTS_SERVICE)
+  local list = pm.queryIntentServices(intent, 0)
+  
+  for i = 0, list.size() - 1 do
+    local info = list.get(i)
+    local packageName = info.serviceInfo.packageName
+    local label = info.loadLabel(pm)
+    if label then
+      table.insert(engines, {name = tostring(label), package = packageName})
+    else
+      table.insert(engines, {name = packageName, package = packageName})
+    end
+  end
+  return engines
+end
+
+local function selectTtsEngine()
+  local L = Lang[selectedLang]
+  local ttsDlg = LuaDialog(ctx)
+  ttsDlg.setTitle(L.selectTTS)
+  ttsDlg.setCancelable(false)
+  
+  local scroll = ScrollView(ctx)
+  local layout = LinearLayout(ctx)
+  layout.setOrientation(LinearLayout.VERTICAL)
+  layout.setPadding(30,30,30,30)
+  
+  local heading = TextView(ctx)
+  heading.setText(L.selectTTS)
+  heading.setTextSize(20)
+  heading.setGravity(Gravity.CENTER)
+  heading.setPadding(0,0,0,20)
+  heading.setTextColor(0xFF2196F3)
+  layout.addView(heading)
+  
+  local sep = View(ctx)
+  sep.setLayoutParams(LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, 2))
+  sep.setBackgroundColor(0xFF2196F3)
+  layout.addView(sep)
+  
+  local engines = getInstalledTtsEngines()
+  
+  if #engines == 0 then
+    local txt = TextView(ctx)
+    txt.setText("No TTS engines found")
+    txt.setTextSize(18)
+    txt.setGravity(Gravity.CENTER)
+    txt.setPadding(0,30,0,30)
+    layout.addView(txt)
+  else
+    for i,v in ipairs(engines) do
+      local btn = Button(ctx)
+      local displayName = v.name
+      local isSelected = (selectedTtsEngine == v.package)
+      
+      if isSelected then
+        displayName = "Selected: " .. displayName
+        btn.setBackgroundColor(0xFF4CAF50)
+        btn.setTextColor(0xFFFFFFFF)
+      else
+        displayName = " " .. displayName
+        btn.setBackgroundColor(0xFFE0E0E0)
+        btn.setTextColor(0xFF000000)
+      end
+      
+      btn.setText(displayName)
+      btn.setTextSize(16)
+      btn.setPadding(20,15,20,15)
+      
+      local params = LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, LinearLayout.LayoutParams.WRAP_CONTENT)
+      params.setMargins(0,5,0,5)
+      btn.setLayoutParams(params)
+      
+      btn.setOnClickListener(function()
+        selectedTtsEngine = v.package
+        currentTtsName = v.name
+        editor.putString("ttsEngine", selectedTtsEngine)
+        editor.apply()
+        ttsDlg.dismiss()
+        initTTS(selectedTtsEngine)
+        speak("TTS engine changed to "..v.name)
+      end)
+      layout.addView(btn)
+    end
+  end
+  
+  local isDefaultSelected = (selectedTtsEngine == nil)
+  local btnDefault = Button(ctx)
+  local defaultText = L.defaultTTS
+  if isDefaultSelected then
+    defaultText = "Selected: " .. L.defaultTTS
+    btnDefault.setBackgroundColor(0xFF4CAF50)
+    btnDefault.setTextColor(0xFFFFFFFF)
+  else
+    defaultText = " " .. L.defaultTTS
+    btnDefault.setBackgroundColor(0xFFE0E0E0)
+    btnDefault.setTextColor(0xFF000000)
+  end
+  btnDefault.setText(defaultText)
+  btnDefault.setTextSize(16)
+  btnDefault.setPadding(20,15,20,15)
+  
+  local params = LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, LinearLayout.LayoutParams.WRAP_CONTENT)
+  params.setMargins(0,5,0,5)
+  btnDefault.setLayoutParams(params)
+  
+  btnDefault.setOnClickListener(function()
+    selectedTtsEngine = nil
+    currentTtsName = L.defaultTTS
+    editor.remove("ttsEngine")
+    editor.apply()
+    ttsDlg.dismiss()
+    initTTS()
+    speak(L.defaultTTS.." TTS engine selected")
+  end)
+  layout.addView(btnDefault)
+  
+  local sep2 = View(ctx)
+  sep2.setLayoutParams(LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, 2))
+  sep2.setBackgroundColor(0xFF9E9E9E)
+  sep2.setPadding(0,10,0,10)
+  layout.addView(sep2)
+  
+  local info = TextView(ctx)
+  local currentText = "Current TTS: "
+  if selectedTtsEngine then
+    currentText = currentText .. currentTtsName
+  else
+    currentText = currentText .. L.defaultTTS
+  end
+  info.setText(currentText)
+  info.setTextSize(14)
+  info.setGravity(Gravity.CENTER)
+  info.setPadding(0,10,0,10)
+  info.setTextColor(0xFF2196F3)
+  layout.addView(info)
+  
+  local btnClose = Button(ctx)
+  btnClose.setText(L.close)
+  btnClose.setTextSize(16)
+  btnClose.setPadding(20,15,20,15)
+  btnClose.setOnClickListener(function() 
+    ttsDlg.dismiss() 
+  end)
+  layout.addView(btnClose)
+  
+  scroll.addView(layout)
+  ttsDlg.setView(scroll)
+  ttsDlg.show()
+end
+
+local function selectLanguage()
+  local langDlg = LuaDialog(ctx)
+  langDlg.setTitle(Lang[selectedLang].select)
+  langDlg.setCancelable(false)
+  local layout = LinearLayout(ctx)
+  layout.setOrientation(LinearLayout.VERTICAL)
+  layout.setPadding(20,20,20,20)
+  
+  -- English option
+  local btnEnglish = Button(ctx)
+  local englishText = Lang[selectedLang].langEnglish
+  if selectedLang == "English" then
+    englishText = englishText .. " 鉁?"
+    btnEnglish.setBackgroundColor(0xFF4CAF50)
+    btnEnglish.setTextColor(0xFFFFFFFF)
+  else
+    btnEnglish.setBackgroundColor(0xFFE0E0E0)
+    btnEnglish.setTextColor(0xFF000000)
+  end
+  btnEnglish.setText(englishText)
+  btnEnglish.setTextSize(16)
+  btnEnglish.setPadding(20,15,20,15)
+  btnEnglish.setOnClickListener(function()
+    if selectedLang ~= "English" then
+      selectedLang = "English"
+      editor.putString("selectedLang", selectedLang)
+      editor.apply()
+      langDlg.dismiss()
+      if mainDialog then mainDialog.dismiss() end
+      openApp()
+    else
+      langDlg.dismiss()
+    end
+  end)
+  layout.addView(btnEnglish)
+  
+  -- Urdu option
+  local btnUrdu = Button(ctx)
+  local urduText = Lang[selectedLang].langUrdu
+  if selectedLang == "Urdu" then
+    urduText = urduText .. " 鉁?"
+    btnUrdu.setBackgroundColor(0xFF4CAF50)
+    btnUrdu.setTextColor(0xFFFFFFFF)
+  else
+    btnUrdu.setBackgroundColor(0xFFE0E0E0)
+    btnUrdu.setTextColor(0xFF000000)
+  end
+  btnUrdu.setText(urduText)
+  btnUrdu.setTextSize(16)
+  btnUrdu.setPadding(20,15,20,15)
+  btnUrdu.setOnClickListener(function()
+    if selectedLang ~= "Urdu" then
+      selectedLang = "Urdu"
+      editor.putString("selectedLang", selectedLang)
+      editor.apply()
+      langDlg.dismiss()
+      if mainDialog then mainDialog.dismiss() end
+      openApp()
+    else
+      langDlg.dismiss()
+    end
+  end)
+  layout.addView(btnUrdu)
+  
+  local btnClose = Button(ctx)
+  btnClose.setText(Lang[selectedLang].close)
+  btnClose.setTextSize(16)
+  btnClose.setPadding(20,15,20,15)
+  btnClose.setOnClickListener(function()
+    langDlg.dismiss()
+  end)
+  layout.addView(btnClose)
+  
+  langDlg.setView(layout)
+  langDlg.show()
+end
+
+function openApp()
+  if mainDialog then mainDialog.dismiss() end
+  local L = Lang[selectedLang]
+  mainDialog = LuaDialog(ctx)
+  mainDialog.setTitle(L.title)
+  mainDialog.setCancelable(false)
+  
+  local layout = LinearLayout(ctx)
+  layout.setOrientation(LinearLayout.VERTICAL)
+  layout.setPadding(40,40,40,40)
+
+  local btnAnnounce = Button(ctx)
+  btnAnnounce.setText(L.announce)
+  btnAnnounce.setTextSize(16)
+  btnAnnounce.setPadding(20,15,20,15)
+  btnAnnounce.setOnClickListener(function() announceAll() end)
+  layout.addView(btnAnnounce)
+
+  local btnWifi = Button(ctx)
+  btnWifi.setText(L.wifi)
+  btnWifi.setTextSize(16)
+  btnWifi.setPadding(20,15,20,15)
+  btnWifi.setOnClickListener(function() announceWifiSignal() end)
+  layout.addView(btnWifi)
+
+  local btnMobile = Button(ctx)
+  btnMobile.setText(L.mobile)
+  btnMobile.setTextSize(16)
+  btnMobile.setPadding(20,15,20,15)
+  btnMobile.setOnClickListener(function() announceMobileSignal() end)
+  layout.addView(btnMobile)
+
+  local btnLang = Button(ctx)
+  btnLang.setText(L.select)
+  btnLang.setTextSize(16)
+  btnLang.setPadding(20,15,20,15)
+  btnLang.setOnClickListener(function() selectLanguage() end)
+  layout.addView(btnLang)
+  
+  local btnTts = Button(ctx)
+  btnTts.setText(L.ttsEngine)
+  btnTts.setTextSize(16)
+  btnTts.setPadding(20,15,20,15)
+  btnTts.setOnClickListener(function() selectTtsEngine() end)
+  layout.addView(btnTts)
+
+  local btnAbout = Button(ctx)
+  btnAbout.setText(L.about)
+  btnAbout.setTextSize(16)
+  btnAbout.setPadding(20,15,20,15)
+  btnAbout.setOnClickListener(function() showAbout() end)
+  layout.addView(btnAbout)
+
+  local btnClose = Button(ctx)
+  btnClose.setText(L.exit)
+  btnClose.setTextSize(16)
+  btnClose.setPadding(20,15,20,15)
+  btnClose.setOnClickListener(function()
+    if mainDialog then mainDialog.dismiss() end
+    if tts then tts.shutdown() end
+    mainDialog = nil
+  end)
+  layout.addView(btnClose)
+
+  mainDialog.setView(layout)
+  mainDialog.show()
+end
+
+-- Initialize with saved settings
+initTTS(selectedTtsEngine)
+openApp()
